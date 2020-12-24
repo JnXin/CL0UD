@@ -1,1 +1,4 @@
-a: 102
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8500/eureka
